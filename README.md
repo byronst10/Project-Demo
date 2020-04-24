@@ -9,7 +9,8 @@ aid users in improving their time-management and increase their overall producti
    study progress throughout the week (similar to "screen time" on the iPhone).
 2. Making the App mobile responsive.
    <br>
-   Check back soon for updates!
+
+Check back soon for updates!
    <br>
    
 **Contributors:**
@@ -18,6 +19,7 @@ aid users in improving their time-management and increase their overall producti
 <br>
 Github: https://github.com/byronst10/
 <br>
+
 <i>Mariami Kilasonia<i>
 <br>
 Github: https://github.com/Mariamka91/
