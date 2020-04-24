@@ -1,18 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Study App</title>
-    <!--- Bootstrap --->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-<body>
-    <H1>Study App</H1>
+     <!--Firebase-->
+     <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-database.js"></script>
+     <!--- jQuery-->
+     <script src="https://code.jquery.com/jquery.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+     <!--- Bootstrap --->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!--- CSS Stylesheet --->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
     
+    <!--Chart-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+  </head>
+  <body>
+    <h2 id="headerText">Study App With Motivational Quotes</h2>
+    <header id="home">
+      <div class="container text-center">
+      
+
+        <!-- Random Quotes starts here -->
+        <div class="quote-div">
+          <p class="quote" id="quote"></p>
+          <p class="author" id="author"></p>
+        </div>
+            <!-- Random Quotes Ends Here -->
+
+        </div>
+        <!-- Random Quotes Ends Here -->
+    </header>
+
+    <!-- Timer Section -->
+
+    <div id="timerSection">
+      <div class="container text-center">
+        <h1 id="timer"><time>00:00:00</time></h1>
+
+        <div class="row" id="buttonsContainer">
+          <div class="col-sm-4">
+            <div class="startBtn">
+              <img
+                id="start"
+                src="assets/images/play.png"
+                width="80"
+                height="80"
+              />
+            </div>
+            <p id="textBtn">
+              Press this button when you are ready to start studiyng
+            </p>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="pauseBtn">
+              <img
+                id="pause"
+                src="assets/images/pause.png"
+                width="80"
+                height="80"
+              />
+            </div>
+            <p id="textBtn">Press this button to take a break</p>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="stopBtn">
+              <img
+                id="stop"
+                src="assets/images/stop.png"
+                width="80"
+                height="80"
+              />
+            </div>
+            <p id="textBtn">Press this button when you are finished studying</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Timer Section End -->
+    <!--- Chart Section start --->
+    <div class="container">
+      <canvas id="myChart"></canvas>
+    </div>
+    <!--- Chart Section End-->
+    <br>
+   <!--footer-->
+    <footer class="footer">
+
+      <div class="container text-center">
+    
+        <p id="footer">© Mariami Kilasonia & Byron  2019</p>
+    
+      </div>
+
+
     <script type="text/javascript" src="assets/javascript/app.js"></script>
-</body>
+  </body>
 </html>
