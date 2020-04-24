@@ -5,7 +5,6 @@ aid users in improving their time-management and increase their overall producti
 <br>
 
 **Additional features for future development:**
-<br>
 1. Storing users' study time in Firebase database, while incorporating a Charts JS feature to keep track of
    study progress throughout the week (similar to "screen time" on the iPhone).
 2. Making the App mobile responsive.
@@ -15,8 +14,10 @@ aid users in improving their time-management and increase their overall producti
    
 **Contributors:**
 <br>
-Byron Tottaram
+<i>Byron Tottaram<i>
+<br>
 Github: https://github.com/byronst10/
 <br>
-Mariami Kilasonia
+<i>Mariami Kilasonia<i>
+<br>
 Github: https://github.com/Mariamka91/
