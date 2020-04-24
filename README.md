@@ -2,7 +2,7 @@
 <br>
 A motivational study app which enables users to keep track of their daily study times. The aim of this app is to
 aid users in improving their time-management and increase their overall productivity. An interactive timer is provided along with motivational quotes that are generated each time the stop button is clicked.
-<br>
+</br>
 
 **Additional features for future development:**
 1. Storing users' study time in Firebase database, while incorporating a Charts JS feature to keep track of
@@ -11,15 +11,16 @@ aid users in improving their time-management and increase their overall producti
    <br>
 
 Check back soon for updates!
-   <br>
+   </br>
    
 **Contributors:**
 <br>
-<b><i>Byron Tottaram<i><b>
-<br>
+<b><i>Byron Tottaram<i></b>
+</br>
 Github: https://github.com/byronst10/
 <br>
-
-<b><i>Mariami Kilasonia<i><b>
+</br>
+<b><i>Mariami Kilasonia<i></b>
 <br>
 Github: https://github.com/Mariamka91/
+</br>
