@@ -15,11 +15,11 @@ Check back soon for updates!
    
 **Contributors:**
 <br>
-<i>Byron Tottaram<i>
+<b><i>Byron Tottaram<i><b>
 <br>
 Github: https://github.com/byronst10/
 <br>
 
-<i>Mariami Kilasonia<i>
+<b><i>Mariami Kilasonia<i><b>
 <br>
 Github: https://github.com/Mariamka91/
